@@ -29,7 +29,7 @@ const Computers = ( props) => {
   {
     // 3.Opengun_anim at work and education
     animationIndex = 3;
-  } else if(props.scrollValue > 460 && props.scrollValue < 700)
+  } else if(props.scrollValue > 460 && props.scrollValue < 570)
   {
     // 5.Waving_Dance_anim at Proj
     animationIndex = 5;

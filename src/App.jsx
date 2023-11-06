@@ -14,11 +14,11 @@ const App = () => {
       const windowHeight = window.innerHeight;
       const scrollVhValue = (scrollTop / windowHeight) * 100;
       setScrollValue(scrollVhValue)
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      
+      console.log(scrollVhValue)
+      setScrolled(scrollTop > 100);
+
+
     };
 
     window.addEventListener("scroll", handleScroll);
