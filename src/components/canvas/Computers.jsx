@@ -8,10 +8,10 @@ import CanvasLoader from "../Loader";
 const Computers = ( props) => {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('./character/ALlAnim2.gltf')
-  const { actions, names } = useAnimations(animations, group)
-  // const { setAnimations, animationIndex } = useCharacterAnimations();
-  // console.log("The value of scroll is : ", props.scrollValue);
-  // console.log(names);
+    const { actions, names } = useAnimations(animations, group)
+    // const { setAnimations, animationIndex } = useCharacterAnimations();
+    // console.log("The value of scroll is : ", props.scrollValue);
+    // console.log(names);
 
   var animationIndex=4;
   if(props.scrollValue <= 70)
