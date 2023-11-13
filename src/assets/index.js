@@ -14,19 +14,12 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import unity from "./tech/unity.png";
 import blender from "./tech/blender.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import fanclash from "./company/fanclash.png";
 
 import scr_1 from "./gallery/scr_1920_1.png";
@@ -56,18 +49,11 @@ export {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-  redux,
   tailwind,
-  typescript,
   threejs,
   unity,
   blender,
-  meta,
-  shopify,
-  starbucks,
   fanclash,
   liveDemo,
   webProject,

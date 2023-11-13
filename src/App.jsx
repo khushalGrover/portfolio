@@ -15,7 +15,7 @@ const App = () => {
       const scrollVhValue = (scrollTop / windowHeight) * 100;
       setScrollValue(scrollVhValue)
       
-      console.log(scrollVhValue)
+      // console.log(scrollVhValue)
       setScrolled(scrollTop > 100);
 
 
