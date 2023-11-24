@@ -23,6 +23,7 @@ import {
   rk1,
   rk2,
   rk3,
+  mazeThumbnail,
 } from "../assets";
 
 export const navLinks = [
@@ -198,6 +199,38 @@ const artItems = [
 
 const projects = [
   {
+    name: "Maze Escape",
+    description:
+      "I spearheaded the creation of 'Maze Escape', a pc gaming venture inspired by the Maze Runner film series. I played a pivotal role in incorporating sophisticated algorithms like A* and wave function collapse for dynamic maze generation. Additionally, I crafted an immersive gaming experience with collaborative features, integrating exciting elements such as jump boosts and health enhancements as power-ups.",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Team Project",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PC Game",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "2023",
+        color: "fff"
+      },
+      {
+        name: "College Project",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: mazeThumbnail,
+    source_code_link: "https://github.com/khushalGrover/MazeEscape.git",
+    live_demo_link: "https://khushalgrover.itch.io/maze-escape",
+
+  },
+  
+  {
     name: "Speed Car Run",
     description:
       "Speed car run is a casual game. In this game, we have blended all the adrenalin, fun and excitement a pair of tires can offer together for you. With the amazing racing experience and breathtaking graphics, you won’t be able to put your phone down.",
@@ -217,35 +250,17 @@ const projects = [
       {
         name: "2023",
         color: "fff"
+      }, 
+      {
+        name: "Game Jam",
+        color: "orange-text-gradient",
       }
     ],
     image: scr_3,
     source_code_link: "https://github.com/khushalGrover/Speed-Car-Run",
     live_demo_link: "https://khushalgrover.itch.io/speed-car-run",
   },
-  // {
-  //   name: "Tik Tac Toe",
-  //   description:
-  //     "3D Tic Tac Toe is an engaging web-based game developed using the Unity engine, offering a fresh and immersive twist on the classic tic-tac-toe concept. Set in a vibrant three-dimensional environment, this modern take on the beloved game challenges players to think strategically and strategically to outmaneuver their opponents.",
-  //   tags: [
-  //     {
-  //       name: "Unity",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Blender",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Web Game",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   // image: jobit,
-  //   source_code_link: "https://github.com/",
-  //   live_demo_link: "https://coolors.co/",
-
-  // },
+  
   {
     name: "50 Days 50 Projects",
     description:
@@ -266,6 +281,10 @@ const projects = [
       {
         name: "2022",
         color: "fff"
+      },
+      {
+        name: "Personal Project",
+        color: "orange-text-gradient",
       }
     ],
     image: webProject,

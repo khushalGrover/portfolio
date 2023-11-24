@@ -32,6 +32,7 @@ import rk2 from "./gallery/rk2.png";
 import rk3 from "./gallery/rk3.png";
 import liveDemo from "./liveDemo.png";
 import webProject from "./webProject.jpg";
+import mazeThumbnail from "./mazeThumbnail.png";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   rk1,
   rk2,
   rk3,
+  mazeThumbnail,
 };

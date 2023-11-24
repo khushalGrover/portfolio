@@ -42,7 +42,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-35/50 h-35/50 object-contain'
+                className='w-1/8 h-1/8 object-contain invert'
               />
               
             </div>
@@ -53,7 +53,7 @@ const ProjectCard = ({
               <img
                 src={liveDemo}
                 alt='Live Demo'
-                className='w-35/50 h-35/50 object-contain'
+                className='w-1/8 h-1/8 object-contain invert'
               />
             </div>
           </div>
