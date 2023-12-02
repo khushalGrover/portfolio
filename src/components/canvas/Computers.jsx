@@ -10,7 +10,7 @@ const Computers = ( props) => {
   const { nodes, materials, animations } = useGLTF('./character/ALlAnim2.gltf')
     const { actions, names } = useAnimations(animations, group)
     // const { setAnimations, animationIndex } = useCharacterAnimations();
-    // console.log("The value of scroll is : ", props.scrollValue);
+    console.log("The value of scroll is : ", props.scrollValue);
     // console.log(names);
 
   var animationIndex=4;
@@ -29,7 +29,7 @@ const Computers = ( props) => {
   {
     // 3.Opengun_anim at work and education
     animationIndex = 3;
-  } else if(props.scrollValue > 460 && props.scrollValue < 750)
+  } else if(props.scrollValue > 460 && props.scrollValue < 650)
   {
     // 5.Waving_Dance_anim at Proj
     animationIndex = 5;

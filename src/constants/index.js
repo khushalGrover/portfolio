@@ -106,19 +106,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "MCA Cloud Computing and DevOpps",
-    company_name: "Chandigarh University",
-    icon: education,
-    iconBg: "#383E56",
-    date: "2022 - Present",
-    points: [
-      "Cloud Infrastructure Management: Explored cloud computing platforms like AWS, Azure, and Google Cloud, focusing on provisioning, scaling, and securing cloud resources.",
-      "DevOps Tools and Practices: Studied continuous integration/continuous deployment (CI/CD) pipelines, containerization with Docker, and automation using tools like Jenkins.",
-      "Cloud Security and Compliance: Learned about security best practices, identity and access management, and compliance standards in cloud environments.",
-      // "Advanced Cloud Services: Explored advanced cloud services such as serverless computing, container orchestration with Kubernetes, and big data analytics on cloud platforms.",
-    ],
-  },
-  {
     title: "3D Generalist (Full Time)",
     company_name: "Fanclash11 private limited, Jabalpur, MP",
     icon: suitcase,
@@ -144,21 +131,37 @@ const experiences = [
       "Collaborate with the team to develop and refine the game design.",
     ],
   },
-  {
-    title: "BCA",
-    company_name: "K.L.P College, Indra Ghandi University, Rewari, HR",
-    icon: education,
-    iconBg: "#383E56",
-    date: "2018 - 2021",
-    points: [
-      "Data Structures and Algorithms: Studied advanced data structures and algorithms to solve complex computational problems.",
-      "Database Management Systems: Explored relational database concepts, SQL, and database design principles.",
-      "Web Development: Developed proficiency in HTML, CSS, JavaScript, and web application development",
-      "Learned software development methodologies, requirements analysis, and project management in software development.",
-    ],
-  },
   
 ];
+// const educations = [
+//   {
+//     title: "MCA Cloud Computing and DevOpps",
+//     company_name: "Chandigarh University",
+//     icon: education,
+//     iconBg: "#383E56",
+//     date: "2022 - Present",
+//     points: [
+//       "Cloud Infrastructure Management: Explored cloud computing platforms like AWS, Azure, and Google Cloud, focusing on provisioning, scaling, and securing cloud resources.",
+//       "DevOps Tools and Practices: Studied continuous integration/continuous deployment (CI/CD) pipelines, containerization with Docker, and automation using tools like Jenkins.",
+//       "Cloud Security and Compliance: Learned about security best practices, identity and access management, and compliance standards in cloud environments.",
+//       // "Advanced Cloud Services: Explored advanced cloud services such as serverless computing, container orchestration with Kubernetes, and big data analytics on cloud platforms.",
+//     ],
+//   },
+//   {
+//     title: "BCA",
+//     company_name: "K.L.P College, Indra Ghandi University, Rewari, HR",
+//     icon: education,
+//     iconBg: "#383E56",
+//     date: "2018 - 2021",
+//     points: [
+//       "Data Structures and Algorithms: Studied advanced data structures and algorithms to solve complex computational problems.",
+//       "Database Management Systems: Explored relational database concepts, SQL, and database design principles.",
+//       "Web Development: Developed proficiency in HTML, CSS, JavaScript, and web application development",
+//       "Learned software development methodologies, requirements analysis, and project management in software development.",
+//     ],
+//   },
+  
+// ];
 
 const artItems = [
   {
