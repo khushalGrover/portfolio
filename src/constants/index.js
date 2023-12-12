@@ -23,6 +23,8 @@ import {
   rk1,
   rk2,
   rk3,
+  f1_1,
+  f1_2,
   mazeThumbnail,
 } from "../assets";
 
@@ -196,6 +198,15 @@ const artItems = [
     name: "Bullet(2)",
     image: bullet2,
   },
+  {
+    name: "F1(1)",
+    image: f1_1,
+  },
+  {
+    name: "F1(2)",
+    image: f1_2,
+  
+  }
   
 ];
 

@@ -30,6 +30,9 @@ import bullet2 from "./gallery/bullet4.png";
 import rk1 from "./gallery/rk1.png";
 import rk2 from "./gallery/rk2.png";
 import rk3 from "./gallery/rk3.png";
+import f1_1 from "./gallery/f1_400_1.png";
+import f1_2 from "./gallery/f1_400_2.png";
+
 import liveDemo from "./liveDemo.png";
 import webProject from "./webProject.jpg";
 import mazeThumbnail from "./mazeThumbnail.png";
@@ -66,5 +69,7 @@ export {
   rk1,
   rk2,
   rk3,
+  f1_1,
+  f1_2,
   mazeThumbnail,
 };
