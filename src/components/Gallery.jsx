@@ -12,7 +12,7 @@ const ArtItemCard = ({
   image,
 }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    variants={fadeIn("left", "spring", index * 0.1, 0.75)}
     className='bg-black p-0 rounded-3xl xs:w-[320px] xs:h-[320px] '
   >
     <img

@@ -3,7 +3,13 @@ import education from "./education.png";
 import suitcase from "./suitcase.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./social/github.png";
+import artstation from "./social/artstation.png";
+import itch from "./social/itch-io.png";
+import linkedin from "./social/linkedin.png";
+import behance from "./social/behance.png";
+import instagram from "./social/instagram.png";
+import gmail from "./social/gmail-48.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import downArrow from "./downArrow.png";
@@ -32,6 +38,9 @@ import rk2 from "./gallery/rk2.png";
 import rk3 from "./gallery/rk3.png";
 import f1_1 from "./gallery/f1_400_1.png";
 import f1_2 from "./gallery/f1_400_2.png";
+import boat_1 from "./gallery/boat_1.png";
+import boat_2 from "./gallery/boat_2.png";
+import boat_3 from "./gallery/boat_3.png";
 
 import liveDemo from "./liveDemo.png";
 import webProject from "./webProject.jpg";
@@ -44,6 +53,12 @@ export {
   mobile,
   web,
   github,
+  itch,
+  linkedin,
+  artstation,
+  behance,
+  instagram,
+  gmail,
   menu,
   close,
   downArrow,
@@ -71,5 +86,8 @@ export {
   rk3,
   f1_1,
   f1_2,
+  boat_1,
+  boat_2,
+  boat_3,
   mazeThumbnail,
 };

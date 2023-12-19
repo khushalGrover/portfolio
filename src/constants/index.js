@@ -6,14 +6,14 @@ import {
   reactjs,
   git,
   figma,
-  education,
-  suitcase,
-  docker,
-  liveDemo,
   threejs,
   unity,
-  fanclash,
   blender,
+  education,
+  docker,
+  liveDemo,
+  fanclash,
+  suitcase,
   webProject,
   scr_1,
   scr_2,
@@ -25,7 +25,19 @@ import {
   rk3,
   f1_1,
   f1_2,
+  boat_1,
+  boat_2,
+  boat_3,
   mazeThumbnail,
+  github,
+  itch,
+  linkedin,
+  artstation,
+  behance,
+  instagram,
+  gmail
+  
+  
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +179,20 @@ const experiences = [
 
 const artItems = [
   {
+    name: "boat_3",
+    image : boat_3,
+  },
+  {
+    name: "boat_2",
+    image: boat_2,
+  },
+  {
+    name: "boat_1",
+    image: boat_1,
+  },
+  
+
+  {
     name: "Speed Car Run",
     image: scr_1,
   },
@@ -178,6 +204,7 @@ const artItems = [
     name: "Speed Car Run(3)",
     image: scr_3,
   },
+
   {
     name: "Rk1",
     image: rk1,
@@ -190,6 +217,7 @@ const artItems = [
     name: "Rk3",
     image: rk3,
   },
+
   {
     name: "Bullet",
     image: bullet,
@@ -198,6 +226,7 @@ const artItems = [
     name: "Bullet(2)",
     image: bullet2,
   },
+
   {
     name: "F1(1)",
     image: f1_1,
@@ -209,7 +238,6 @@ const artItems = [
   }
   
 ];
-
 
 const projects = [
   {
@@ -307,4 +335,48 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, artItems, projects };
+const contacts = [
+  {
+    name: "GitHub",
+    icon: github,
+    url: "https://github.com/khushalGrover"
+  },
+
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/khushalGrover/"
+  },
+
+  // {
+  //   name: "Email",
+  //   icon: gmail,
+  //   url: "mailto:khushal15grover@gmail.com"
+  // },
+
+  {
+    name: "Instagram",
+    icon: instagram,
+    url: "https://www.instagram.com/superior3d/"
+  },
+  {
+    name: "ArtStation",
+    icon: artstation,
+    url: "https://www.artstation.com/khushalGrover"
+  },
+  {
+    name: "Behance",
+    icon: behance,
+    url: "https://www.behance.net/khushalGrover"
+  },
+
+  {
+    name: "Itch.io",
+    icon: itch,
+    url: "https://khushalgrover.itch.io/"
+  },
+
+  
+
+]
+export { services, technologies, contacts, experiences, artItems, projects };
