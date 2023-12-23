@@ -10,8 +10,7 @@ const Computers = ( props) => {
   const { nodes, materials, animations } = useGLTF('./character/ALlAnim2.gltf')
     const { actions, names } = useAnimations(animations, group)
     // const { setAnimations, animationIndex } = useCharacterAnimations();
-    console.log("The value of scroll is : ", props.scrollValue);
-    // console.log(names);
+    // console.log("The value of scroll is : ", props.scrollValue);
 
   var animationIndex=4;
   if(props.scrollValue <= 70)
@@ -42,6 +41,7 @@ const Computers = ( props) => {
 
   }
 
+  console.log("Current animation index is: ",animationIndex);
    useEffect(() => {
     actions[names[animationIndex]].reset().fadeIn(0.5).play();
     return () => {
