@@ -36,10 +36,10 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<div className="relative z-2 bg-primary ">
-				<div className="grid-bg">
-        <div className="grid-fade"></div>
-			<div className="grid-lines"></div>
-        </div>
+				<div className="grid-bg hidden sm:hidden lg:block">
+					<div className="grid-fade"></div>
+					<div className="grid-lines"></div>
+				</div>
 				<div className="bg-hero-pattern h-full bg-contain  lg:bg-none bg-no-repeat bg-right-bottom ">
 					<Navbar scrolled={scrolled} />
 					<Hero scrollValue={scrollValue} />
