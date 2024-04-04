@@ -27,7 +27,7 @@ const Hero = ({ scrollValue }) => {
         </div>
       </div>
 
-      <div className="fixed  h-screen w-1/2 right-0 hidden sm:hidden lg:block z-3">
+      <div className="fixed h-screen w-1/2 right-0 hidden sm:hidden lg:block z-3">
         <ComputersCanvas scrollValue={scrollValue} /> 
         {/* <CharacterCanvas/> */}
         {/* {alert("This is an alert message!")} */}

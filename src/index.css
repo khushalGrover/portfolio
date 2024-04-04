@@ -8,6 +8,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* $body-bg: #101010;
+$grid-color: rgba(#fafafa, 0.3);
+$grid-height: 600px; */
+
 * {
   margin: 0;
   padding: 0;
@@ -125,6 +129,48 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/*
+ * Grid Bg
+*/
+.grid-bg {
+  /* background-color: #00ff00; */
+  z-index: 0;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  perspective: 450px;
+  position: fixed;
+}
+.grid-fade {	
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: radial-gradient(ellipse at 50% 50%, rgba(16, 16, 16, 0%) 0%, rgba(16, 16, 16, 100%) 80%);
+}
+.grid-lines {
+  /* z-index: -5; */
+  width: 100%;
+  height: 200%;
+  background-image: linear-gradient(to right, #fafafa 1px, transparent 0), linear-gradient(to bottom, #fafafa 1px, transparent 0);
+  background-size: 45px 30px;
+  background-repeat: repeat;
+  transform-origin: 100% 0 0;
+  animation: play 35s linear infinite;
+}
+
+@keyframes play {
+	0% {
+		transform: rotateX(40deg) translateY(0);
+
+	}
+	100% {
+		transform: rotateX(40deg) translateY(-50%);
+	}
+}
+
 
 /* canvas- styles */
 .canvas-loader {
