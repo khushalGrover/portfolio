@@ -27,6 +27,7 @@ $grid-height: 600px; */
   display: block;
 }
 
+
 .black-gradient {
   
   background: #111;
@@ -38,17 +39,6 @@ $grid-height: 600px; */
   animation: rotate 10s linear infinite;
 
 }
-.black-gradient-2 {
-  
-  background: #1118;
-  /* width: 50px; */
-  /* height: 50px; */
-  z-index: 1;
-  backdrop-filter: blur(6px);
-  outline: 1px solid #fff;
-
-}
-
 .yellow-gradient {
   background: #f7f8d7;
   background: linear-gradient(-90deg, #f7f8d7 0%, rgba(60, 51, 80, 0) 100%);

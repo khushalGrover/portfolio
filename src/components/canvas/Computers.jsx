@@ -52,7 +52,7 @@ const Computers = (props) => {
 					name="Rig"
 					position={[5, -30, 5]}
 					rotation={[Math.PI / 2, 0, 0]}
-					scale={0.03}
+					scale={0.04}
 				>
 					<primitive object={nodes.mixamorigHips} />
 					<skinnedMesh

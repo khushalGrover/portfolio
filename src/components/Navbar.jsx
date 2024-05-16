@@ -33,7 +33,7 @@ const Navbar = ({ scrolled }) => {
             <span className='sm:block hidden'> | 3D Generalist </span>
           </p>
         </Link>
-
+          
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li

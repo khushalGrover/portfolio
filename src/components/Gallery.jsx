@@ -15,12 +15,12 @@ const ArtItemCard = ({
   isMobile ? (
     <div
       variants={fadeIn("left", "spring", index * 0.1, 0.75)}
-      className='bg-black p-0 rounded-3xl xs:w-[320px] xs:h-[320px]'
+      className='bg-black p-0 rounded-3xl xs:w-[150px] xs:h-[150px]'
     >
       <img
         src={image}
         alt={`Art-Item-${name}`}
-        className='w-full rounded-md object-cover'
+        className='w-full/2 rounded-md object-cover'
       />
     </div>
   ) : (
