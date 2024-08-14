@@ -117,11 +117,21 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Graphic Designer (Full Time)",
+		company_name: "Webtuks IT Solutions, Mohali, Punjab",
+		icon: suitcase,
+		iconBg: "#383E56",
+		date: "Jun 2024 - Present",
+		points: [
+			"",
+		],
+	},
+	{
 		title: "3D Generalist (Full Time)",
 		company_name: "Fanclash11 private limited, Jabalpur, MP",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "July 2021 - July 2022 (1 year)",
+		date: "July 2021 - July 2023 (2 year)",
 		points: [
 			"Developing and maintaining mobile games using Unity Engine and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
