@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary-text text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a self-taught game developer. Curious about technology. This website was made to showcase all of what I can do and plan to do.
+        I'm a self-taught CG Artist. Curious about technology. This website was made to showcase all of what I can do and plan to do.
         I like to describe my self as CG lover and Creative person. Currently I am learning how to build awesome 3D websites/games using Three.JS and React.
       </motion.p>
 

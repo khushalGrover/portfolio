@@ -21,8 +21,8 @@ const Hero = ({ scrollValue }) => {
           </h1>
           
           <p className={`${styles.heroSubText}`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I design , user interfaces<br className='sm:block hidden' />
+             and 3D visual web applications
           </p>
         </div>
       </div>

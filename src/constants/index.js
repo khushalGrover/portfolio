@@ -117,13 +117,17 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Graphic Designer (Full Time)",
+		title: "UI/UX Designer (Full Time)",
 		company_name: "Webtuks IT Solutions, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "Jun 2024 - Present",
+		date: "Feb 2024 - Present",
 		points: [
-			"",
+			"Designed intuitive user interfaces and enhanced user experiences for mobile and web applications using tools like Figma, Inkscape, Adobe PS",
+			"Conducted user research, created personas, and developed wireframes and prototypes to improve user journeys.",
+			"Collaborated with developers and product teams to ensure seamless design implementation and consistent user experiences.",
+			"Utilized usability testing and user feedback to iteratively refine and improve the design.",
+			"Created design systems and UI kits to maintain consistency across various platforms.",
 		],
 	},
 	{
