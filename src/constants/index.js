@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "UI/UX Designer (Full Time)",
+		title: "Asst. Project Manager (Full Time)",
 		company_name: "DortrexAI, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
