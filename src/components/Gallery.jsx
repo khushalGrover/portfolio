@@ -64,7 +64,7 @@ const Gallery = () => {
 
 
   return (
-    <div className={`mt-12 transparent rounded-[20px] `}>
+    <div className={`mt-12 bg-black/95 rounded-[20px] `}>
       <div
         className={`bg-[#0a0a0a] rounded-2xl ${styles.padding} min-h-[300px]`}
       >

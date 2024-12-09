@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Asst. Project Manager (Full Time)",
+		title: "Generalist Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
@@ -365,16 +365,7 @@ const contacts = [
 	//   url: "mailto:khushal15grover@gmail.com"
 	// },
 
-	{
-		name: "Instagram",
-		icon: instagram,
-		url: "https://www.instagram.com/superior3d/",
-	},
-	{
-		name: "ArtStation",
-		icon: artstation,
-		url: "https://www.artstation.com/khushalGrover",
-	},
+	
 	{
 		name: "Behance",
 		icon: behance,
