@@ -121,7 +121,7 @@ const experiences = [
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "Feb 2024 - Present",
+		date: "June 2024 - Present",
 		points: [
 			"Designed intuitive user interfaces and enhanced user experiences for mobile and web applications using tools like Figma, Inkscape, Adobe PS",
 			"Conducted user research, created personas, and developed wireframes and prototypes to improve user journeys.",
