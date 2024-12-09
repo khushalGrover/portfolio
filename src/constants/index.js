@@ -135,7 +135,7 @@ const experiences = [
 		company_name: "Fanclash11 private limited, Jabalpur, MP",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "July 2021 - July 2023 (2 year)",
+		date: "July 2021 - July 2022 (1 year)",
 		points: [
 			"Developing and maintaining mobile games using Unity Engine and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
