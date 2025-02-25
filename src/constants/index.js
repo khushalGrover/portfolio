@@ -28,6 +28,9 @@ import {
 	boat_1,
 	boat_2,
 	boat_3,
+	fh_0,
+	fh_1,
+	fh_2,
 	mazeThumbnail,
 	github,
 	itch,
@@ -63,16 +66,16 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Unity Developer",
-		icon: unity,
+		title: "UI/UX Developer",
+		icon: figma,
 	},
 	{
-		title: "3D Generalist (Blender)",
+		title: "3D Generalist",
 		icon: blender,
 	},
 	{
-		title: "Web Developer",
-		icon: web,
+		title: "Unity Developer",
+		icon: unity,
 	},
 ];
 
@@ -117,17 +120,15 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Generalist Designer (Full Time)",
+		title: "UI Game Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
 		date: "June 2024 - Present",
 		points: [
-			"Designed intuitive user interfaces and enhanced user experiences for mobile and web applications using tools like Figma, Inkscape, Adobe PS",
+			"Designed intuitive user interfaces and enhanced user experiences for mobile and web Games using tools like Figma, After Effect and Blender",
 			"Conducted user research, created personas, and developed wireframes and prototypes to improve user journeys.",
-			"Collaborated with developers and product teams to ensure seamless design implementation and consistent user experiences.",
-			"Utilized usability testing and user feedback to iteratively refine and improve the design.",
-			"Created design systems and UI kits to maintain consistency across various platforms.",
+			"Collaborated with developers and product teams to ensure seamless design implementation and consistent user experiences",
 		],
 	},
 	{
@@ -188,6 +189,18 @@ const experiences = [
 // ];
 
 const artItems = [
+	{
+		name: "Fh_0",
+		image: fh_0,
+	},
+	{
+		name: "Fh_1",
+		image: fh_1,
+	},
+	{
+		name: "Fh_2",
+		image: fh_2,
+	},
 	{
 		name: "boat_3",
 		image: boat_3,

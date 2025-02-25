@@ -41,6 +41,9 @@ import f1_2 from "./gallery/f1_400_2.png";
 import boat_1 from "./gallery/boat_1.png";
 import boat_2 from "./gallery/boat_2.png";
 import boat_3 from "./gallery/boat_3.png";
+import fh_0 from "./gallery/fh_0.png";
+import fh_1 from "./gallery/fh_1.png";
+import fh_2 from "./gallery/fh_2.png";
 
 import liveDemo from "./liveDemo.png";
 import webProject from "./webProject.jpg";
@@ -89,5 +92,8 @@ export {
   boat_1,
   boat_2,
   boat_3,
+  fh_0,
+  fh_1,
+  fh_2,
   mazeThumbnail,
 };

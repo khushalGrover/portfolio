@@ -30,7 +30,7 @@ const Navbar = ({ scrolled }) => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-secondary-text text-[18px] font-bold cursor-pointer flex hover:text-quinary-text'>
             Khushal Grover &nbsp;
-            <span className='sm:block hidden'> | Generalist Designer</span>
+            <span className='sm:block hidden'> | Game Designer</span>
           </p>
         </Link>
           
