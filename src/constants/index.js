@@ -120,7 +120,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "UI Game Designer (Full Time)",
+		title: "UI/UX Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
