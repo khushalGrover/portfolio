@@ -17,6 +17,7 @@ import downArrow from "./downArrow.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import photoshop from "./tech/photoshop.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -68,6 +69,7 @@ export {
   css,
   docker,
   figma,
+  photoshop,
   git,
   html,
   javascript,

@@ -6,6 +6,7 @@ import {
 	reactjs,
 	git,
 	figma,
+	photoshop,
 	threejs,
 	unity,
 	blender,
@@ -66,8 +67,12 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "UI/UX Developer",
+		title: "UI/UX Designing",
 		icon: figma,
+	},
+	{
+		title: "Graphic Designing",
+		icon: photoshop,
 	},
 	{
 		title: "3D Generalist",
@@ -120,12 +125,13 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "UI/UX Designer (Full Time)",
+		title: "Graphic and UI/UX Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
 		date: "June 2024 - Present",
 		points: [
+			"Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
 			"Designed intuitive user interfaces and enhanced user experiences for mobile and web Games using tools like Figma, After Effect and Blender",
 			"Conducted user research, created personas, and developed wireframes and prototypes to improve user journeys.",
 			"Collaborated with developers and product teams to ensure seamless design implementation and consistent user experiences",
@@ -361,34 +367,29 @@ const projects = [
 
 const contacts = [
 	{
-		name: "GitHub",
-		icon: github,
-		url: "https://github.com/khushalGrover",
-	},
-
-	{
 		name: "LinkedIn",
 		icon: linkedin,
 		url: "https://www.linkedin.com/in/khushalGrover/",
 	},
-
-	// {
-	//   name: "Email",
-	//   icon: gmail,
-	//   url: "mailto:khushal15grover@gmail.com"
-	// },
-
-	
+	{
+	  name: "Artstation",
+	  icon: artstation,
+	  url: "https://www.artstation.com/khushalgrover"
+	},
 	{
 		name: "Behance",
 		icon: behance,
 		url: "https://www.behance.net/khushalGrover",
 	},
-
 	{
 		name: "Itch.io",
 		icon: itch,
 		url: "https://khushalgrover.itch.io/",
+	},
+	{
+		name: "GitHub",
+		icon: github,
+		url: "https://github.com/khushalGrover",
 	},
 ];
 export { services, technologies, contacts, experiences, artItems, projects };
