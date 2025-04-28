@@ -10,12 +10,11 @@ import {
 	threejs,
 	unity,
 	blender,
+	adobe,
 	education,
-	docker,
 	liveDemo,
-	fanclash,
 	suitcase,
-	webProject,
+	interview,
 	scr_1,
 	scr_2,
 	scr_3,
@@ -67,20 +66,16 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "UI/UX Designing",
-		icon: figma,
-	},
-	{
-		title: "Graphic Designing",
-		icon: photoshop,
-	},
-	{
 		title: "3D Generalist",
 		icon: blender,
 	},
 	{
-		title: "Unity Developer",
+		title: "Game Designing",
 		icon: unity,
+	},
+	{
+		title: "Graphic Designing",
+		icon: adobe,
 	},
 ];
 
@@ -125,14 +120,14 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Graphic and UI/UX Designer (Full Time)",
+		title: "UI / Game Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
 		date: "June 2024 - Feb 2025",
 		points: [
-			"Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
-			"Designed intuitive user interfaces and enhanced user experiences for mobile and web Games using tools like Figma, After Effect and Blender",
+			// "Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
+			"Designed intuitive user interfaces and enhanced user experiences for mobile and web Games using tools like Blender, Substance Designer/Painter and Unity",
 			"Conducted user research, created personas, and developed wireframes and prototypes to improve user journeys.",
 			"Collaborated with developers and product teams to ensure seamless design implementation and consistent user experiences",
 		],
@@ -198,70 +193,218 @@ const artItems = [
 	{
 		name: "Fh_0",
 		image: fh_0,
+		tags: [
+			"logo design",
+			"illustration",
+			"2d",
+			"branding",
+			"graphic design",
+			"adobe illustrator",
+			"photoshop",
+		],
 	},
 	{
 		name: "Fh_1",
 		image: fh_1,
+		tags: [
+			"logo design",
+			"illustration",
+			"2d",
+			"branding",
+			"graphic design",
+			"adobe illustrator",
+			"photoshop",
+		],
 	},
 	{
 		name: "Fh_2",
 		image: fh_2,
+		tags: [
+			"logo design",
+			"illustration",
+			"2d",
+			"branding",
+			"graphic design",
+			"adobe illustrator",
+			"photoshop",
+		],
 	},
 	{
 		name: "boat_3",
 		image: boat_3,
+		tags: [
+			"Product Design",
+			"3D",
+			"Blender",
+			"High poly",
+			"Substance Painter",
+			"Substance Designer",
+			"Realistic",
+			"Motion graphics",
+			"Electronic",
+		],
 	},
 	{
 		name: "boat_2",
 		image: boat_2,
+		tags: [
+			"Product Design",
+			"3D",
+			"Blender",
+			"High poly",
+			"Substance Painter",
+			"Substance Designer",
+			"Realistic",
+			"Motion graphics",
+			"Electronic",
+		],
 	},
 	{
 		name: "boat_1",
 		image: boat_1,
+		tags: [
+			"Product Design",
+			"3D",
+			"Blender",
+			"High poly",
+			"Substance Painter",
+			"Substance Designer",
+			"Realistic",
+			"Motion graphics",
+			"Electronic",
+		],
 	},
 
 	{
 		name: "Speed Car Run",
 		image: scr_1,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Car",
+		],
 	},
 	{
 		name: "Speed Car Run(2)",
 		image: scr_2,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Car",
+		],
 	},
 	{
 		name: "Speed Car Run(3)",
 		image: scr_3,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Car",
+		],
 	},
 
 	{
 		name: "Rk1",
 		image: rk1,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+		],
+
 	},
 	{
 		name: "Rk2",
 		image: rk2,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+		],
 	},
 	{
 		name: "Rk3",
 		image: rk3,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+		],
 	},
 
 	{
 		name: "Bullet",
 		image: bullet,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Bike",
+		],
 	},
 	{
 		name: "Bullet(2)",
 		image: bullet2,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Bike",
+		],
 	},
 
 	{
 		name: "F1(1)",
 		image: f1_1,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Car",
+		],
 	},
 	{
 		name: "F1(2)",
 		image: f1_2,
+		tags: [
+			"Game Assets Design",
+			"3D",
+			"low poly",
+			"Blender",
+			"Unity",
+			"Mobile Game",
+			"Car",
+		],
 	},
 ];
 
@@ -284,7 +427,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 			{
-				name: "2023",
+				name: "2024",
 				color: "fff",
 			},
 			{
@@ -315,7 +458,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 			{
-				name: "2023",
+				name: "2025",
 				color: "fff",
 			},
 			{
@@ -329,28 +472,28 @@ const projects = [
 	},
 
 	{
-		name: "Interior Configurator",
+		name: "Interview Game UI",
 		description:
-			"Built a 3D web application with React Three Fiber and Tailwind CSS, allowing users to visualize and customize interior spaces. Users can personalize furniture arrangements, decor, and layouts, facilitating easy decision-making and enhancing engagement. ",
+			"A casual mobile game, you step into the shoes of an HR professional, conducting interviews, hiring employees, and managing workplace tasks to earn experience and rewards! The game is designed to be both fun and educational, providing players with insights into the hiring process and workplace dynamics.",
 		tags: [
 			{
-				name: "React",
+				name: "Figma",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "TailwindCss",
+				name: "Blender",
 				color: "green-text-gradient",
 			},
 			{
-				name: "React Three Fiber",
+				name: "Midjourney",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "Web App",
+				name: "Game UI",
 				color: "pink-text-gradient",
 			},
 			{
-				name: "2024",
+				name: "2025",
 				color: "fff",
 			},
 			{
@@ -358,10 +501,10 @@ const projects = [
 				color: "orange-text-gradient",
 			},
 		],
-		image: webProject,
-		source_code_link: "https://github.com/khushalGrover/",
+		image: interview,
+		source_code_link: "https://www.artstation.com/artwork/gRqR4G",
 		live_demo_link:
-			"https://khushalgrover.github.io/R3F-Interior-Configurator/",
+			"https://youtu.be/nNnkHEqLHzQ?si=zFCg07zdRzRCVxX4",
 	},
 ];
 

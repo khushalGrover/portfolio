@@ -13,11 +13,10 @@ import gmail from "./social/gmail-48.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import downArrow from "./downArrow.png";
-
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import photoshop from "./tech/photoshop.png";
+import adobe from "./tech/adobe.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -47,7 +46,7 @@ import fh_1 from "./gallery/fh_1.png";
 import fh_2 from "./gallery/fh_2.png";
 
 import liveDemo from "./liveDemo.png";
-import webProject from "./webProject.jpg";
+import interview from "./interviewProject.jpg";
 import mazeThumbnail from "./mazeThumbnail.png";
 
 export {
@@ -67,9 +66,9 @@ export {
   close,
   downArrow,
   css,
-  docker,
   figma,
   photoshop,
+  adobe,
   git,
   html,
   javascript,
@@ -80,7 +79,7 @@ export {
   blender,
   fanclash,
   liveDemo,
-  webProject,
+  interview,
   scr_1,
   scr_2,
   scr_3,
