@@ -211,6 +211,7 @@ const ComputersCanvas = ({ scrollValue }) => {
           isMobile={true}
           scrollValue={scrollValue}
           position={[0, -10, 0]}
+		  scale={isMobile ? 0.5 : 1}
         />
       </Suspense>
 
