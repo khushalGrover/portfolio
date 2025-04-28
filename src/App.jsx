@@ -31,7 +31,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern h-full bg-contain  lg:bg-none bg-no-repeat bg-right-bottom '>
+        {/* <div className='bg-hero-pattern h-full bg-contain  lg:bg-none bg-no-repeat bg-right-bottom '> */}
+        <div className='h-full bg-contain  lg:bg-none bg-no-repeat bg-right-bottom '>
           <Navbar scrolled={scrolled}/>
           <Hero scrollValue={scrollValue}/>
         </div>
