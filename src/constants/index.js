@@ -120,6 +120,17 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "AR/VR Developer (Full Time)",
+		company_name: "SGAG Technologies Pvt Ltd, Rewari, Haryana",
+		icon: suitcase,
+		iconBg: "#383E56",
+		date: "Feb 2025 - present",
+		points: [
+			// "Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
+			".",
+		],
+	},
+	{
 		title: "UI / Game Designer (Full Time)",
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
