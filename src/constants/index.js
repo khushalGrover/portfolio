@@ -127,7 +127,7 @@ const experiences = [
 		date: "Feb 2025 - present",
 		points: [
 			// "Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
-			".",
+			"Developed immersive AR/VR experiences using Unity and ARCore/ARKit, enhancing user engagement and interaction.",
 		],
 	},
 	{
@@ -135,7 +135,7 @@ const experiences = [
 		company_name: "DortexAI Pvt Ltd, Mohali, Punjab",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "June 2024 - Feb 2025",
+		date: "June 2023 - Feb 2025",
 		points: [
 			// "Created engaging visual designs for digital and print media using Photoshop, Illustrator, and Figma. ",
 			"Designed intuitive user interfaces and enhanced user experiences for mobile and web Games using tools like Blender, Substance Designer/Painter and Unity",
@@ -148,7 +148,7 @@ const experiences = [
 		company_name: "Fanclash11 private limited, Jabalpur, MP",
 		icon: suitcase,
 		iconBg: "#383E56",
-		date: "July 2021 - July 2022 (1 year)",
+		date: "July 2021 - July 2023 (2 years)",
 		points: [
 			"Developing and maintaining mobile games using Unity Engine and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality games.",
